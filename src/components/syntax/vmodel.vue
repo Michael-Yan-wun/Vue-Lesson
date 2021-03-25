@@ -1,3 +1,9 @@
+<!-- 
+ Page : vmodel.vue
+ Author : Michael
+ Time: 2021-03-24
+ Des: show how v-model works.
+ -->
 <template>
   <div>
     <label>請輸入文字</label>

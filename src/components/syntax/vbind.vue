@@ -1,3 +1,9 @@
+<!-- 
+ Page : vbind.vue
+ Author : Michael
+ Time: 2021-03-24
+ Des: show how v-bind works.
+ -->
 <template>
   <div>
     <!-- v-bind原始寫法 -->

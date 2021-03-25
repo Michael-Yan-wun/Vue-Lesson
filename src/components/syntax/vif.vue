@@ -1,3 +1,9 @@
+<!-- 
+ Page : vif.vue
+ Author : Michael
+ Time: 2021-03-24
+ Des: show how v-if works.
+ -->
 <template>
   <div>
     <div v-if="vif">我是v-if區塊</div>

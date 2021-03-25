@@ -1,0 +1,24 @@
+<Vue 課程交流>
+
+Step 1:
+    配置vue環境，請開啟終端機輸入以下指令:(請先確認是否安裝node)
+    ## node -v
+    ## npm install -g @vue/cli
+    ## vue -V
+    若看到版本資訊表示恭喜你安裝成功了喔～
+
+Step 2:
+    請先至以下網站下載上課資源
+    https://github.com/Michael-Yan-wun/Vue-Lesson
+    ps.可以用git clone到喜歡的資料夾內放置
+
+Step 3:
+    接著開啟VSCode，進到Vue-Lesson的資料夾內(cd Vue-Lesson)
+    輸入以下指令:
+    ## npm install
+    ## npm run dev
+
+Step 4:
+    開啟以下網址，即可以看到課程畫面！
+    http://localhost:8080
+    
