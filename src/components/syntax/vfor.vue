@@ -7,6 +7,7 @@
 <template>
   <div>
     <ul v-for="(item, index) in details" :key="index">
+      <li>Index:{{index}}</li>
       <li>Name:{{ item.name }}</li>
       <li>score:{{ item.score }}</li>
       <li>Jobs:{{ item.job }}</li>

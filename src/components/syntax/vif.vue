@@ -9,7 +9,6 @@
     <div v-if="vif">我是v-if區塊</div>
     <div v-show="vshow">我是v-show區塊</div>
     <button @click="showMyDatas">顯示全部</button>
-
     <!-- 綜合小練習 -->
     <div>
       <input

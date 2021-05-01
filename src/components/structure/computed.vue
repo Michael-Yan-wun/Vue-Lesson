@@ -76,6 +76,9 @@ export default {
       ],
     };
   },
+  updated(){
+    console.log(this.visibility);
+  },
   methods: {},
   computed: {
     filterDatas() {
@@ -118,11 +121,12 @@ export default {
   background-color: white;
 }
 /* 注意偽元素有先後順序問題 */
+
 a:link {
   color: black;
 }
-
 a:focus {
   color: green;
 }
+
 </style>

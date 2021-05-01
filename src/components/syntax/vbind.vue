@@ -6,7 +6,7 @@
  -->
 <template>
   <div>
-    <!-- v-bind原始寫法 -->
+    <!-- v-bind:[屬性]原始寫法 -->
     <p v-bind:id="title">我是v-bind id 示範</p>
     <!-- : 表示v-bind的意思 -->
     <button :disabled='btnControl'>click me</button>
@@ -18,7 +18,7 @@ export default {
   data() {
     return {
       title: "myTag",
-      btnControl: true,
+      btnControl: false,
     };
   },
 };

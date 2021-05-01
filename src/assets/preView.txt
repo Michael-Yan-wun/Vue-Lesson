@@ -3,7 +3,7 @@
 Step 1:
     配置vue環境，請開啟終端機輸入以下指令:(請先確認是否安裝node)
     ## node -v
-    ## npm install -g @vue/cli
+    ## npm install -g @vue/cli (mac 請加上sudo)
     ## vue -V
     若看到版本資訊表示恭喜你安裝成功了喔～
 

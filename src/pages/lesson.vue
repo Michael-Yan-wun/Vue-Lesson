@@ -20,10 +20,17 @@
 </template>
 
 <script>
+import axios from "axios";
+
 export default {
   name: "lesson",
   data() {
     return {};
+  },
+  created(){
+    axios.get('https://original-future-308806.df.r.appspot.com/api/todo').then((res)=>{
+      console.log(res);
+    })
   },
   methods: {
     changePage() {

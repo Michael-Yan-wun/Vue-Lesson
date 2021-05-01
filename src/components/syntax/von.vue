@@ -8,7 +8,6 @@
   <div>
     <!-- 原生click事件寫法 -->
     <div v-on:click="studentPrinter">Hello Student</div>
-  
     <!-- click寫法 -->
     <div @click="teacherPrinter">Hello Teacher</div>
     <div @click="parameter(1, 2, $event)">Send Parameter</div>
